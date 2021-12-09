@@ -1,7 +1,9 @@
-const CategoriesPage = () => (
+const CategoriesPage = function () {
+  return (
     <div>
       <h1> Under Construction </h1>
     </div>
   );
-  
-  export default CategoriesPage;
+};
+
+export default CategoriesPage;

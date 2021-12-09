@@ -17,7 +17,7 @@ const demoList = [{
   id: 3, title: 'Capital in the Twenty-First Century', author: 'Suzanne Collins',
 }];
 
-function App() {
+const App = function () {
   return (
     <Router>
       <header>
@@ -36,6 +36,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;

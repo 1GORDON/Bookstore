@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Book = (props) => {
+const Book = function (props) {
   const { book } = props;
   return (
     <li key={book.id}>

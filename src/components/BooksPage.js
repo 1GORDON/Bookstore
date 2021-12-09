@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Book from './Book';
 
-const BooksPage = (props) => {
+const BooksPage = function (props) {
   const { bookList } = props;
   return (
     <div>
