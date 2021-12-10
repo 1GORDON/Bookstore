@@ -2,12 +2,13 @@
 
 In this project, I achieved the following
 
-- Initialised React app.
-- Added React Redux (npm install react-redux).
-- Structured your application files using a "feature folder" approach and use the ducks pattern for your Redux files.
-- Added React Router and set two Routes and Links for the app's navigation:
-- Books should display the list of books with the Remove button, should have a form for adding a book
-- Categories should display "Under construction" text only.
+- Configured my Redux Store.
+- Added some UI elements to your components and made them dispatch actions.
+- Wrote actions and reducer for adding and removing books.
+- Configured the Redux Store.
+- Installed redux logger.
+- Set the data inputs in the local React state.
+- Used the redux-logger to check if the application is working correctly through browser's console.
 
 ## Built With
 
