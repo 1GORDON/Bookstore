@@ -2,13 +2,9 @@
 
 In this project, I achieved the following
 
-- Configured my Redux Store.
-- Added some UI elements to your components and made them dispatch actions.
-- Wrote actions and reducer for adding and removing books.
-- Configured the Redux Store.
-- Installed redux logger.
-- Set the data inputs in the local React state.
-- Used the redux-logger to check if the application is working correctly through browser's console.
+- Connected the React-Redux application to an existing API.
+- Created and Removed books from a remote server.
+- Used middleware to make async requests to the API.
 
 ## Built With
 
