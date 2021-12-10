@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
 // eslint-disable-next-line
-const Book = function (props) {
+const Book = (props) => {
   const { book } = props;
+  const dispatch = useDispatch();
   return (
     <li key={book.id}>
       <span>{` ${book.title} `}</span>
-      <span>{` ${book.author} `}</span>
-      <button type="button">Remove book</button>
+      <span>{`by ${book.author} `}</span>
+      <button type="button" onClick={() => dispatch(removeBook(book.id))}>Remove Book</button>
     </li>
   );
 };
