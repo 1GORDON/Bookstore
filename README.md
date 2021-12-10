@@ -12,6 +12,7 @@ In this project, I achieved the following
 - Redux
 - React-Router
 - JavaScript
+- API
 
 ## Getting Started
 
