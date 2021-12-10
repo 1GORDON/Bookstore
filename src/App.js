@@ -13,7 +13,7 @@ const App = () => (
   <Router>
     <header>
       <nav>
-        <h1>Awesome Bookstore</h1>
+        <h1>Awesome Remote Bookstore</h1>
         <div className="nav-links">
           <Link to="/">Book</Link>
           <div />
