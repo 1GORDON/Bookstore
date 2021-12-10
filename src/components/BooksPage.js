@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import Book from './Book';
 
+// eslint-disable-next-line
 const BooksPage = function (props) {
   const { bookList } = props;
   return (

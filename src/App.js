@@ -6,17 +6,11 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
+import demoList from './components/navbar';
 import BooksPage from './components/BooksPage';
 import CategoriesPage from './components/CategoriesPage';
 
-const demoList = [{
-  id: 1, title: 'The Hunger Games', author: 'Suzanne Collins',
-}, {
-  id: 2, title: 'Dune', author: 'Frank Herbert',
-}, {
-  id: 3, title: 'Capital in the Twenty-First Century', author: 'Suzanne Collins',
-}];
-
+// eslint-disable-next-line
 const App = function () {
   return (
     <Router>
