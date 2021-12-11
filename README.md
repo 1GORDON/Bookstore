@@ -15,6 +15,10 @@ In this project, I achieved the following
 - JavaScript
 - API
 
+## Live Demo
+
+- [Live Link](https://bookstore-styling.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
