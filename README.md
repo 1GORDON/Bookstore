@@ -2,9 +2,10 @@
 
 In this project, I achieved the following
 
-- Connected the React-Redux application to an existing API.
-- Created and Removed books from a remote server.
-- Used middleware to make async requests to the API.
+- Used the information detailed in Zeplin to style the website.
+- Displayed a list of books.
+- Added a book.
+- Removed a selected book.
 
 ## Built With
 
