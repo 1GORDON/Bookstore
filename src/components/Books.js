@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getBooksList } from '../redux/Books/books';
+import { getBooksList } from '../redux/books/books';
 import BookItem from './BookItem';
 
 const Books = () => {
