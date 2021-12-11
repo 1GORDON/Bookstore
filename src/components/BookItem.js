@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+/* eslint-enable */
 import { deleteBook } from '../redux/Books/books';
 
 const BookItem = ({ book }) => {
