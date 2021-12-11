@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 - Clone this repo to your local machine, run git clone and paste the url of the repository
-  `git clone https://github.com/1GORDON/Bookstore-React-Redux.git` in your command prompt
+  `git clone https://github.com/1GORDON/Bookstore.git` in your command prompt
 - Open the project in your browser run `npm run build` and then run `serve -s build`.
 
 ## Authors
