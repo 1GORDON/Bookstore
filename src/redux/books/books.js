@@ -11,7 +11,7 @@ const bookSlice = createSlice(
     reducers: {
       addBook: (state, action) => [...current(state), { ...action.payload }],
       removeBook: (state, action) => current(state).filter((b) => b.item_id !== action.payload),
-      fetchBooks: (state, action) => action.payload,
+      fetchBooks: (_state, action) => action.payload,
     },
   },
 );
@@ -26,7 +26,7 @@ const fetchBooks = async (dispatch) => {
       category: book.category,
     }
   ));
-  dispatch({ type: 'book/fetchBooks', payload: bookList });
+  dispatch({ type: 'books/fetchBooks', payload: bookList });
 };
 
 const addBooktoStore = (book) => {
