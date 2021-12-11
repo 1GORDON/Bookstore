@@ -3,7 +3,7 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 /* eslint-enable */
 import booksReducer from './Books/books';
-
+/* eslint-enable */
 const reducer = combineReducers({
   booksReducer,
 });
