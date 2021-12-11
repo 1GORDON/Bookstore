@@ -5,7 +5,7 @@ In this project, I achieved the following
 - Used the information detailed in Zeplin to style the website.
 - Displayed a list of books.
 - Added a book.
-- Removed a selected book.
+- Removed a selected book. 
 
 ## Built With
 
