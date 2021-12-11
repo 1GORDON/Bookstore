@@ -1,16 +1,26 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiUser } from 'react-icons/fi';
-// import { FaCalendar } from 'react-icons/fa'
+import { FaUserAlt } from 'react-icons/fa';
 
-export default function NavBar() {
-  return (
-    <nav className="nav">
-      <h1 className="logo">Bookstore CMS</h1>
-      <div className="nav-item">
-        <Link to="/"><li className="nav-b">BOOKS</li></Link>
-        <Link to="/categories"><li className="nav-c">CATEGORIES</li></Link>
-      </div>
-      <div className="oval"><FiUser /></div>
+const Navbar = () => (
+  <div className="navigation_container">
+    <nav className="navigation d_flex">
+      <ul className="d_flex">
+        <li><h1><Link to="/">Bookstore CMS</Link></h1></li>
+        <li><Link to="/">BOOKS</Link></li>
+        <li><Link to="/categories">CATEGORIES</Link></li>
+      </ul>
+      <span className="user-profile-wrapper d_flex">
+        <FaUserAlt style={{
+          color: '#0290ff',
+          height: '15px',
+          cursor: 'pointer',
+          transition: 'all ease-in 300ms',
+        }}
+        />
+      </span>
     </nav>
-  );
-}
+  </div>
+);
+
+export default Navbar;
