@@ -88,7 +88,7 @@ nav {
   width: 85rem;
   height: 8.625rem;
   margin: 2.313rem 6.25rem 0;
-  padding: 2rem 2.188rem 1.625rem 1.288rem;
+  padding: 2rem 2.188rem 1.625rem 10rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   list-style: none;
@@ -153,7 +153,7 @@ nav {
   width: 85rem;
   height: 5.625rem;
   margin: 2.313rem 8.25rem 0;
-  padding: 1rem 0.188rem 1.625rem 1.688rem;
+  padding: 1rem 0.188rem 1.625rem 10rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
 }
