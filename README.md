@@ -17,7 +17,7 @@ In this project, I achieved the following
 
 ## Live Demo
 
-- [Live Link](https://bookstore-styling.netlify.app/)
+- [Live Link](https://bookstore-gordon-styling.netlify.app/)
 
 ## Getting Started
 
