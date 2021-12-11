@@ -5,6 +5,7 @@ import booksReducer from './Books/books';
 
 const reducer = combineReducers({
   booksReducer,
+  // additional reducers could be added here
 });
 
 const store = createStore(
