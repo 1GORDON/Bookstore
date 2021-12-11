@@ -36,4 +36,4 @@ Book.propTypes = {
   }).isRequired,
 };
 
-export default Book
+export default Book;
