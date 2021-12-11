@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import BooksPage from './BooksPage';
 import CategoryPage from './CategoryPage';
-/* eslint-enable */
 import Navbar from './Navbar';
 import '../index.css';
 
