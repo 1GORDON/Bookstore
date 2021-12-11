@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FiUser } from 'react-icons/fi';
+// import { FaCalendar } from 'react-icons/fa'
 
 export default function NavBar() {
   return (
