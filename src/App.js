@@ -4,28 +4,23 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from 'react-router-dom';
 import BooksPage from './components/BooksPage';
 import CategoriesPage from './components/CategoriesPage';
+import NavBar from './components/NavBar';
 
-const App = () => (
-  <Router>
-    <header>
-      <nav>
-        <h1>Awesome Remote Bookstore</h1>
-        <div className="nav-links">
-          <Link to="/">Book</Link>
-          <div />
-          <Link to="/categories">Categories</Link>
-        </div>
-      </nav>
-    </header>
-    <Routes>
-      <Route path="/" element={<BooksPage />} />
-      <Route path="/categories" element={<CategoriesPage />} />
-    </Routes>
-  </Router>
-);
+function App() {
+  return (
+    <Router>
+      <header>
+        <NavBar />
+      </header>
+      <Routes>
+        <Route path="/" element={<BooksPage />} />
+        <Route path="/categories" element={<CategoriesPage />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
