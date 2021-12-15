@@ -7,6 +7,11 @@ In this project, I achieved the following
 - Added a book.
 - Removed a selected book. 
 
+## Live Demo
+
+- [Live Link](https://bookstore-style.netlify.app/)
+ 
+
 ## Built With
 
 - React
